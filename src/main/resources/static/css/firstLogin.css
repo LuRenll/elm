@@ -1,0 +1,345 @@
+* {
+    margin:0px;
+    padding: 0px;
+}
+li {
+    list-style:none;
+}
+a {
+    text-decoration:none;
+}
+body {
+    width:100%;
+    margin:0px auto;
+    background-color:#F7F7F7;
+}
+#header {
+    width:1366px;
+    height:60px;
+    background-color:#008DE1;
+    margin:0px auto;
+    box-sizing:border-box;
+}
+#header ul span {
+    display:inline-block;
+    float:left;
+    margin-left:50px;
+}
+#header ul li {
+    width:140px;
+    height:60px;
+    line-height:60px;
+    box-sizing:border-box;
+    text-align:center;
+    display:inline-block;
+    color:#FFF;
+    float:left;
+    font-size:16px;
+}
+#header ul li img {
+    vertical-align:middle;
+}
+#header ul li a {
+    color:#FFF;
+}
+#header ul li a:hover {
+    color:#F03;
+}
+#header ul li:hover {
+    background:#006BC7;
+}
+#header ul li:nth-of-type(6) {
+    margin-left:130px;
+}
+#center {
+    width:1366px;
+    height:502px;
+    margin:0px auto;
+    position:relative;
+    box-sizing:border-box;
+}
+#center #center-left {
+    width:249px;
+    height:500px;
+    background:#000;
+    box-sizing:border-box;
+    position:absolute;
+    left:60px;
+    top:-1px;
+    z-index:2;
+    opacity:0.6;
+}
+#center #center-right {
+    width:1235px;
+    height:500px;
+    float:left;
+    box-sizing:border-box;
+    position:absolute;
+    left:58px;
+    margin:0px auto;
+}
+#center #center-left li {
+    width:250px;
+    box-sizing:border-box;
+    height:51px;
+    text-align:left;
+    line-height:51px;
+    font-size:14px;
+    padding-left:20px;
+    padding-right:20px;
+    border-bottom:1px #999 solid;
+}
+#center #center-left li a {
+    color:#FFF;
+}
+#center #center-left li img {
+    vertical-align:middle;
+}
+#center #center-left li:hover {
+    background:#FFF;
+    opacity:0.9;
+}
+#center #center-left li:hover a {
+    color:#000;
+}
+#center-center {
+    width:1366px;
+    height:300px;
+    margin:0px auto;
+    margin-top:200px;
+    box-sizing:border-box;
+}
+#dituContent {
+    float:left;
+    margin-left:100px;
+}
+#center-hidden {
+    width:580px;
+    height:300px;
+    float:left;
+}
+#center-hidden input {
+    width:540px;
+    height:36px;
+    float:left;
+    border-radius:3px;
+    margin-left:60px;
+}
+#center-hidden input:nth-of-type(2) {
+    margin-top:10px;
+}
+#center-hidden input:nth-of-type(3) {
+    margin-top:10px;
+    height:150px;
+    text-align:left;
+}
+#center-hidden input:nth-of-type(4) {
+    margin-top:10px;
+    background-color:#D9534F;
+}
+/*中间部分*/
+#importent {
+    width:1366px;
+    height:620px;
+    margin:0px auto;
+    box-sizing:border-box;
+}
+#importent-top {
+    width:1236px;
+    box-sizing:border-box;
+    float:left;
+    margin-left:60px;
+    border:1px #CCC solid;
+    padding:5px 0px 0px 5px;
+    margin-top:20px;
+    background:#FFF;
+}
+#importent-center {
+    width:1236px;
+    box-sizing:border-box;
+    height:50px;
+    float:left;
+    margin-left:60px;
+    margin-top:10px;
+}
+#importent-center p {
+    float:left;
+}
+#importent-center input {
+    float:right;
+    width:300px;
+    height:30px;
+    display:inline-block;
+    transition: width 2s;
+    -moz-transition: width 2s;
+    -webkit-transition: width 2s;
+    -o-transition: width 2s;
+}
+#importent-center input:hover {
+    width:400px;
+}
+#importent-bottom {
+    width:1235px;
+    box-sizing:border-box;
+    height:606px;
+    float:left;
+    margin-left:60px;
+    margin-top:10px;
+    border:1px solid #CCC;
+    background:#FFF;
+}
+#importent-bottom dl dt {
+    width:1236px;
+    box-sizing:border-box;
+    height:130px;
+    border:1px solid #CCC;
+    display:inline-block;
+}
+#importent-bottom dl dt ul a {
+    color:#666;
+}
+#importent-bottom dl dt ul {
+    float:left;
+    margin-top:10px;
+}
+#importent-bottom dl dt ul p {
+    width:75px;
+    height:25px;
+    float:left;
+    margin-left:15px;
+}
+#importent-bottom dl dt ul li {
+    width:85px;
+    height:25px;
+    float:left;
+    text-align:center;
+    line-height:25px;
+    margin-left:20px;
+}
+#importent-bottom dl dt ul:nth-of-type(3) {
+    clear:both;
+    margin-left:90px;
+    height:41px;
+}
+#importent-bottom dl dt ul li:hover {
+    background:#0089DC;
+}
+#importent-bottom dl dt ul:nth-of-type(2) {
+    margin-left:90px;
+}
+
+#importent-bottom dl ol li {
+    width:306px;
+
+    height:155px;
+    float:left;
+    box-sizing:border-box;
+}
+#importent-bottom dl ol li:hover {
+    background:#F7F7F7;
+}
+#importent-bottom dl ol li h1 {
+    margin:30px 0px 0px 30px;
+    float:left;
+}
+#importent-bottom dl ol li p {
+    margin:30px 0px 0px 20px;
+    font-size:18px;
+    float:left;
+}
+#importent-bottom dl ol li h3, h6 {
+    margin:8px 0px 0px 20px;
+    float:left;
+}
+#importent-bottom dl ol li h5 {
+    float:left;
+    clear:left;
+    margin-left:45px;
+}
+/*最后部分*/
+#footer {
+    width:1366px;
+    height:360px;
+    margin:0px auto;
+    box-sizing:border-box;
+}
+#footer .footer-top {
+    width:1366px;
+    height:310px;
+    margin:0px auto;
+    box-sizing:border-box;
+    float:left;
+}
+.footer-bottom ul {
+    text-align:center;
+}
+#footer li {
+    display:inline-block;
+    color:#666666;
+}
+#footer li a {
+    font-size:12px;
+    color:#666666;
+}
+#footer li a:hover {
+    color:#F03;
+    text-decoration:underline;
+}
+/*图片轮番播放*/
+#list {
+    font-size:30px;
+    position:absolute;
+    left: 3px;
+    top: -1px;
+}
+#list li {
+    width:1235px;
+    height:500px;
+    box-sizing:border-box;
+}
+#list > li {
+    display:none;
+    line-height:500px;
+    text-align:center;
+    color:#fff;
+}
+#list > .current {
+    display:block;
+}
+/* 背景色，用以示例区分不同li */
+.bg-cyn {
+    background:url(../images/f1.jpg) no-repeat center center;
+    background-size:cover;
+}
+.bg-tom {
+    background:url(../images/封面2.jpg) no-repeat center center;
+    background-size:cover;
+}
+.bg-blu {
+    background:url(../images/封面3.jpg) no-repeat center center;
+    background-size:cover;
+}
+.bg-mar {
+    background:url(../images/封面4.jpg) no-repeat center center;
+    background-size:cover;
+}
+/*百度地图*/
+html, body {
+    margin:0;
+    padding:0;
+}
+.iw_poi_title {
+    color:#CC5522;
+    font-size:14px;
+    font-weight:bold;
+    overflow:hidden;
+    padding-right:13px;
+    white-space:nowrap
+}
+.iw_poi_content {
+    font:12px arial, sans-serif;
+    overflow:visible;
+    padding-top:4px;
+    white-space:-moz-pre-wrap;
+    word-wrap:break-word
+}

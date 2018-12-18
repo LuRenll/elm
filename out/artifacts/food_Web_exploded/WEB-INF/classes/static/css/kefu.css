@@ -1,0 +1,206 @@
+* {
+    mrgin: 0px;
+    padding: 0px;
+}
+body {
+    background-color:#F3F3F5;
+}
+.top {
+    background-color: #0088ff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 10%;
+}
+.topLogo {
+    position: absolute;
+    left: 65px;
+    top: 0px;
+}
+.topMain {
+    position: absolute;
+    left: 267px;
+    top: 0px;
+    width: 450px;
+    height: 100%;
+    color: white;
+    font-weight: 500;
+}
+#td1 {
+    background-color: #0073D8
+}
+#td2:hover {
+    background-color: #0073D8
+}
+#td3:hover {
+    background-color: #0073D8
+}
+#td4:hover {
+    background-color: #0073D8
+}
+.topRight {
+    position: absolute;
+    left: 1550px;
+    top: 15px;
+}
+.topRight {
+    color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    font-weight: 300;
+    width: 243px;
+    height: 42px;
+}
+#topspan1:hover {
+    color: rgba(255, 255, 255, 1.00)
+}
+#phone {
+    vertical-align: middle
+}
+.panel {
+    #display: none;
+    background-color: white;
+    border: thick rgba(0, 0, 0, 1.00);
+}
+header {
+    margin-top:90px;
+}
+header #ti1 {
+    background-color:#FFF;
+    width:1740px;
+    height:56px;
+    position:relative;
+    left:50px;
+    top:30px;
+}
+header #ti1 #laba {
+    padding:20px 20px;
+    float:left;
+}
+header #ti1 .a1 {
+    padding:20px 0px;
+    float:left;
+    color:#999;
+}
+header #ti1 .a2 {
+    padding-top:20px;
+    padding-left:65px;
+    color:#999;
+    float:left;
+    text-decoration:none;
+}
+header #ti1 .a2:hover {
+    color:#F00;
+}
+header #ti1 .a2 .new {
+    border-radius:8px;
+    background-color:#6F6;
+    padding:1px 8px;
+    color:#FFF;
+}
+header #ti2 {
+    background-color:#FFF;
+    width:1740px;
+    height:450px;
+    position:relative;
+    left:50px;
+    top:40px;
+}
+header #ti2 P {
+    font-size:19px;
+    color:#666;
+    padding-left:35px;
+    padding-top:30px;
+}
+header #ti2 ul li {
+    padding-top:40px;
+    width:340px;
+    height:360px;
+    margin-left:80px;
+    list-style:none;
+    float:left;
+}
+header #ti2 ul li .yi {
+    font-size:18px;
+    color:#999;
+}
+header #ti2 ul li .yi:hover {
+    color:#999;
+}
+header #ti2 ul li a {
+    color:#999;
+    font-size:16px;
+    line-height:35px;
+    text-decoration: none;
+}
+header #ti2 ul li a:hover {
+    color:#00F;
+}
+header #ti3 {
+    background-color:#FFF;
+    width:1740px;
+    height:200px;
+    position:relative;
+    left:50px;
+    top:50px;
+    clear:both;
+}
+header #ti3 P {
+    font-size:19px;
+    color:#666;
+    padding-left:35px;
+    padding-top:30px;
+}
+header #ti3 #zixun {
+    padding-left:80px;
+    padding-top:20px;
+    float:left;
+}
+header #ti3 .a3 {
+    float:left;
+    font-weight:bold;
+    color:#333;
+    padding-left:20px;
+    padding-top:20px;
+}
+header #ti3 .a4 {
+    float:left;
+    font-size:16px;
+    color:#999;
+    position:relative;
+    left:-140px;
+    top:45px;
+}
+header #ti3 .a5 {
+    float:left;
+    border-radius:2px;
+    background-color:#06F;
+    padding:8px 15px;
+    color:#FFF;
+    font-weight:bold;
+    margin-top:25px;
+}
+header #ti3 #shu {
+    padding-left:300px;
+}
+header #ti3 #phone2 {
+    padding-left:40px;
+    padding-top:-25px;
+}
+header #ti3 .fup {
+    font-weight:bold;
+    color:#666;
+    position:relative;
+    left:20px;
+    top:-45px;
+}
+header #ti3 .fuh {
+    color:#333;
+    position:relative;
+    color:#999;
+    float:right;
+    position:relative;
+    right:600px;
+    top:-25px;
+    font-size:16px;
+}

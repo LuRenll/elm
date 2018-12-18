@@ -1,0 +1,244 @@
+/* CSS Document */
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+li {
+    list-style:none;
+}
+a {
+    text-decoration:none;
+}
+body {
+    width:100%;
+    margin:0px auto;
+}
+#header {
+    width:1366px;
+    height:500px;
+    background-color:#008DE1;
+    margin:0px auto;
+    box-sizing:border-box;
+    position:relative;
+}
+#header ul {
+    width:1200px;
+    height:40px;
+    margin:0px 0px 0px 80px;
+    padding:30px 0px 0px 0px;
+    box-sizing:border-box;
+}
+#header ul li {
+    display:inline-block;
+    float:left;
+    color:#FFF;
+}
+#header ul li a {
+    color:#FFF;
+}
+#header ul li a:hover {
+    color:#F03;
+}
+#header ul li, img {
+    line-height:40px;
+}
+#header ul li:nth-of-type(1) {
+    margin-top:2px;
+}
+#header ul li:nth-of-type(2) {
+    font-size:18px;
+    font-weight:bold;
+    color:#FFF;
+}
+#header ul li:nth-of-type(3) {
+    margin-left:650px;
+}
+#header ul li:nth-of-type(4) {
+    margin-left:10px;
+}
+#header ul li:nth-of-type(5) {
+    margin-left:20px;
+    box-sizing:border-box;
+    width:100px;
+    text-align:center;
+    height:30px;
+    line-height:30px;
+    background-color:#5DB423;
+    border-radius:2px;
+    margin-top:3px;
+}
+#header .img {
+    width:100%;
+    text-align:center;
+    float:left;
+    margin-top:130px;
+}
+#header .form {
+    width:100%;
+    float:left;
+    margin-top:50px;
+    margin-left:360px;
+}
+#header .form form input {
+    display:inline-block;
+    float:left;
+    width:500px;
+    height:55px;
+    box-sizing:border-box;
+    font-size:16px;
+    font-weight:200;
+}
+#header .form .address {
+    width:90px;
+    height:55px;
+    background:#FFF;
+    display:inline-block;
+    float:left;
+    text-align:center;
+    line-height:55px;
+    box-sizing:border-box;
+    border-right:1px solid #008DE1;
+}
+#header .form .address img {
+    margin-top:0px;
+    vertical-align:middle;
+}
+#header .ress span{
+    width: 0px;
+    height: 0;
+    border-bottom: 25px #FFF solid;
+    border-left: 30px solid transparent;
+    border-right: 20px solid transparent;
+    position:absolute;
+    left:30px;
+    top:-25px;
+
+}
+#header .ress {
+    width:760px;
+    height:380px;
+    position:absolute;
+    left:360px;
+    top:408px;
+    background:#FFF;
+    display: none;
+    color:#000;
+    border: 1px solid #CCCCCC;
+}
+#header .form .address:hover div {
+    display:inline-block;
+}
+#header .ress .ress-top {
+    width:600px;
+    height:60px;
+    padding-bottom:5px;
+    border-bottom:1px solid #CCC;
+    float:left;
+    color:#000;
+    margin-left:70px;
+    position:relative;
+}
+#header .ress .ress-top ul li {
+    float:left;
+    color:#000;
+    font-size:14px;
+}
+#header .ress .ress-top ul li:nth-of-type(2) {
+    margin-left:100px;
+}
+#header .ress div {
+    float:left;
+}
+#header .ress-center {
+    width:600px;
+    border-bottom:1px solid #CCC;
+    float:left;
+    color:#000;
+    margin-left:70px;
+}
+#header .ress .ress-center ul li {
+    float:left;
+    color:#03F;
+    height:30px;
+    font-size:14px;
+    line-height:30px;
+}
+#header .ress .ress-center ul li:nth-of-type(2) {
+    width:68px;
+    height:30px;
+    background:#FF6000;
+    line-height:30px;
+    border-radius:2px;
+    margin-left:10px;
+    color:#FFF;
+    text-align:center;
+}
+#header .ress .ress-center form input {
+    width:200px;
+    height:30px;
+    float:left;
+    box-sizing:border-box;
+    position:absolute;
+    right:200px;
+}
+#header .ress .ress-center p {
+    width:220px;
+    height:40px;
+    float:left;
+    vertical-align:middle;
+}
+#header .ress .ress-bottom {
+
+    width:760px;
+    height:293px;
+    float:left;
+}
+#header .ress .ress-bottom ol {
+    width:600px;
+    height:43px;
+    box-sizing:border-box;
+}
+#header .ress .ress-bottom ol li {
+    width:100px;
+    height:43px;
+    float:left;
+    color:#000;
+    text-align:center;
+    line-height:43px;
+    box-sizing:border-box;
+}
+#header .ress .ress-bottom ol li a {
+    color:#333;
+}
+#header .ress .ress-bottom ol li a:hover {
+    color:#F03;
+    text-decoration:underline;
+}
+#footer {
+    width:1366px;
+    height:360px;
+    margin:0px auto;
+    box-sizing:border-box;
+}
+#footer .footer-top {
+    width:1366px;
+    height:310px;
+    margin:0px auto;
+    box-sizing:border-box;
+    float:left;
+}
+.footer-bottom ul {
+    text-align:center;
+}
+#footer li {
+    display:inline-block;
+    color:#666666;
+}
+#footer li a {
+    font-size:12px;
+    color:#666666;
+}
+#footer li a:hover {
+    color:#F03;
+    text-decoration:underline;
+}

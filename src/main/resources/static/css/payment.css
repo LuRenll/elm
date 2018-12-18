@@ -1,0 +1,269 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color:rgb(247, 247, 247) !important;
+}
+/* 头部 */
+.top{
+    height:127px;
+    width:100%;
+    background-color:rgb(0, 137, 220);
+}
+.top .topUp{
+    height:31px;
+    width:1180px;
+    line-height:31px;
+    padding:2px 80px;
+    margin:0 auto;
+    color:white;
+    border-bottom:1px solid white;
+}
+.top .topUp a{
+    text-decoration:none;
+    color:white;
+}
+.top .topUp  div{
+    float:left;
+}
+.top .topUp #my{
+    float:right;
+}
+.top .topUp ul{
+    position: absolute;
+    right:80px;
+    top:30px;
+    z-index:999;
+    display:none;
+}
+.top .topUp ul li{
+    list-style-type:none;
+    height:32px;
+    width:100px;
+    color:gray;
+    text-align:center;
+    line-height:32px;
+    background-color:rgb(250,253,254);
+}
+.top .topDown{
+    width:1180px;
+    height:90px;
+    line-height:90px;
+    margin-left:100px;
+    color:white;
+    display:inline-block;
+    position:absolute;
+}
+.top .topDown img{
+    display:inline-block;
+    position: relative;
+    top:-10px;
+}
+.top .topDown span{
+    font-size:25px;
+    font-weight:bolder;
+    padding-left:10px;
+    border-left:1px solid white;
+}
+/* 进度条 */
+.sui-steps-round{
+    width:438.31px;
+    height:49px;
+    position: absolute;
+    top:0;
+    right:0;
+}
+.sui-steps-round .round{
+    margin-left:20px;
+    background-color:orange !important;
+}
+.wrap{
+    width:150px;
+}
+/* 内容部分 */
+.content{
+    width:1180px;
+    height:955px;
+    margin:30px auto;
+}
+.content div{
+    float:left;
+    margin-right:3px;
+}
+.contentLeft{
+    width:401.19px;
+    height:418px;
+    background-color:white;
+    border:1px solid lightgray;
+}
+.contentLeft .title{
+    height:60px;
+    width:100%;
+    line-height:60px;
+    font-size:18px;
+    text-indent:20px;
+    border-bottom:1px solid lightgray;
+}
+.contentLeft .title a{
+    text-decoration:none;
+    color:gray;
+    font-size:14px;
+    float:right;
+    margin-right:20px;
+}
+.contentRight{
+    width:707px;
+    height:883px;
+    background-color:white;
+    border:1px solid lightgray;
+}
+/* 添加收货地址 */
+.add{
+    height:72px;
+    width:715px;
+    line-height:72px;
+    text-align:center;
+    background-color:rgb(241, 241, 241);
+    cursor: pointer;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-weight:bolder;
+    border-radius:5px;
+}
+/* 付款 */
+.contentRight02{
+    width:715px;
+}
+.contentRight02 div{
+    height:40px;
+    width:351.77px;
+    border:1px solid rgb(0, 137, 220);
+    margin-top:20px;
+    padding:20px;
+    line-height:20px;
+}
+/* 红包 */
+.contentRight03{
+    width:715px;
+    margin-top:30px;
+    line-height:40px;
+    font-size:15px;
+}
+.contentRight03 b{
+    font-size:20px;
+}
+.contentRight03 a{
+    text-decoration:none;
+    color:orange;
+}
+/* 配送 */
+.contentRight04{
+    width:715px;
+    margin-top:30px;
+    line-height:40px;
+    font-size:15px;
+}
+.contentRight04 a{
+    text-decoration:none;
+    color:orange;
+}
+.contentRight04 b{
+    font-size:20px;
+}
+.contentRight04 input{
+    width:235px;
+    height:31px;
+    outline:none;
+    margin-left:10px;
+}
+/* 下单 */
+.contentRight05{
+    cursor: pointer;
+    line-height:15px;
+    position: relative;
+}
+.contentRight05 button{
+    width:124px;
+    height:40px;
+    background-color:rgb(247, 67, 66);
+    border:0;
+    border-radius:5px;
+}
+#erweima{
+    display:none;
+}
+.contentRight05:hover #erweima{
+    display:block;
+}
+/* 底部 */
+.footer{
+    width:1180px;
+    height:325px;
+    margin:0 auto;
+    position: relative;
+    line-height:30px;
+    border-top:1px solid lightgray;
+}
+.footer div{
+    width:100px;
+    height:100%;
+    margin-right:110px;
+    float:left;
+    text-align:left;
+}
+.footer div a{
+    text-decoration:none;
+    color:gray;
+}
+/* 固定 */
+.fixed{
+    height:60px;
+    width:100%;
+    line-height:60px;
+    text-align:right;
+    background-color:white;
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+/* 地址 */
+#mask{
+    height:100%;
+    width:100%;
+    background-color:black;
+    position:fixed;
+    top:0;
+    display:none;
+}
+#mask .address{
+    height:415px;
+    width:730px;
+    margin:100px auto;
+    line-height:35px;
+    padding:30px;
+    background-color:white;
+}
+#mask .address button{
+    border:0;
+}
+/* 加减 */
+#left,#center,#right{
+    float: left;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background: #eee;
+    cursor: pointer;
+    margin-top:10px;
+}
+#center{
+    width:20px;
+    background: #fff;
+    cursor: auto;
+}
+#right{
+    float: right;
+    cursor: pointer;
+}

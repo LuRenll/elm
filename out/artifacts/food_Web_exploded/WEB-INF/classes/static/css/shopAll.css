@@ -1,0 +1,409 @@
+* {
+    margin:0px;
+    padding: 0px;
+}
+li {
+    list-style:none;
+}
+a {
+    text-decoration:none;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+body{
+    background:#f7f7f7;
+}
+
+
+#all{
+    width:1320px;
+    margin:0px auto;
+    overflow:hidden;
+}
+
+#header-bg{
+    width:100%;
+    height:260px;
+    background:url(../images/bgd1.jpg) top;
+    background-size: cover;
+    position:relative;
+    overflow:hidden;
+}
+#header {
+    width:100%;
+    height:260px;
+    margin:0px auto;
+    box-sizing:border-box;
+    background:rgba( 125, 114, 102,0.5);
+}
+
+#header-top{
+    width:100%;
+    height:50px;
+    background:rgba(0,0,0,0.6);
+}
+#header-top ul img{
+    display:block;
+    float:left;
+    line-height:50px;
+    margin-left:30px;
+}
+#header-top ul li{
+    width:140px;
+    height:50px;
+    margin:0px auto;
+    line-height:50px;
+    box-sizing:border-box;
+    text-align:center;
+    display:inline-block;
+    color:#FFF;
+    float:left;
+    position:relative;
+}
+#header-top ul li a{
+    display:inline-block;
+    font-size:16px;
+    color:#FFF;
+}
+#header-top ul li:hover{background:#000;}
+
+#header-top ul #guize{
+    width:251px;
+    margin-left:80px;
+}
+
+#header-top ul #guize:hover{
+    background:none;
+}
+#header-top ul #guize span{
+    display:inline-block;
+    margin-left:10px;
+}
+#header-top ul #guize span a{
+    color:#CCC;
+    font-size:14px;
+}
+#header-top ul #guize span a:hover{
+    color:#FFF;
+}
+#header-top ul #guize #phone{
+    margin-left:15px;
+    background:url(../images/Phone1.png) no-repeat left;
+    text-indent:16px;
+
+}
+#header-top .right{
+    margin-right:50px;
+    background:url(../images/People1.png) no-repeat left;
+}
+#header-top .right li{
+    text-align:right;
+    padding-right:15px;
+}
+#header-top .right li:hover{
+    background:none;
+}
+#header-top .right li a{
+    font-size:14px;
+}
+#header-top .right li a:hover{
+    color:#00F;
+    text-decoration:underline;
+}
+#header-zhong{
+    height:140px;
+    color:#FFFFFF;
+    z-index:1;
+    margin:10px 0px 0px 10px;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+#header-zhong tr td{
+    color:#FFFFFF;
+
+}
+#header-zhong .indent{
+    font-size:20px;
+    text-indent:2em;
+    font-weight:bold;
+}
+#header-zhong .xiaoliang{
+    font-size:14px;
+    text-indent:4em;
+}
+#header-bottom{
+    width:100%;
+    height:60px;
+    background:#FFF;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+#header-bottom .left{
+    color:#CCC;
+    margin-left:30px;
+}
+#header-bottom .left span{
+    width:10px;
+    height:60px;
+    line-height:60px;
+    display:inline-block;
+    float:left;
+}
+#header-bottom .left li{
+    display:inline-block;
+    width:100px;
+    height:60px;
+    text-align:center;
+    line-height:60px;
+    float:left;
+}
+#header-bottom .left li a{
+    color:#000;
+}
+
+#header-bottom .right{
+    color:#CCC;
+    margin-right:380px;
+}
+#header-bottom .right span{
+    width:10px;
+    height:60px;
+    line-height:60px;
+    display:inline-block;
+    float:left;
+}
+#header-bottom .right li{
+    display:inline-block;
+    width:80px;
+    height:60px;
+    text-align:center;
+    line-height:60px;
+    float:left;
+}
+#header-bottom .right li a{
+    font-size:14px;
+    color:#000;
+}
+#header-bottom ul li a:active{
+    color:#00F;
+}
+#header-bottom{
+    position:relative;
+}
+#header-bottom input{
+    width:251px;
+    height:30px;
+    display:inline-block;
+    position:absolute;
+    right:60px;
+    top:15px;
+    text-indent:1em;
+}
+#zhong{
+    width:100%;
+    height:1000px;
+    margin:0px auto;
+    box-sizing:border-box;
+    overflow:hidden;
+    padding:20px;
+}
+#zhong-left{
+    width:920px;
+    height:1200px;
+    overflow:hidden;
+    box-sizing:border-box;
+    float:left;
+}
+#zhong-left #zhong-div{
+    width:918px;
+    height:50px;
+    background:#FFF;
+    border:1px solid #CCC;
+    float:left;
+}
+#zhong-left #zhong-div .right{
+    float: left;
+
+}
+#zhong-left #zhong-div ul{
+    width:500px;
+    height:50px;
+    line-height:50px;
+    float:left;
+    margin-left:20px;
+}
+#zhong-left #zhong-div ul li{
+    margin:10px 0 0 10px;
+    line-height:30px;
+    text-indent:1em;
+    display:inline-block;
+    float:left;
+    width:150px;
+    height:30px;
+    border-radius:5px;
+}
+#zhong-left #zhong-div ul li:hover{
+    background:#0FF;
+}
+#zhong-left #zhong-div ul li a{
+    color:#666;
+    font-size:14px;
+}
+#zhong-left #zhong-div ul li a:active{
+    color:#FFF;
+}
+#zhong-left #zhong-div ul li:active{
+    background:#8000FF;
+}
+#zhong-left h1{
+    display:inline-block;
+    width:918px;
+    height:30px;
+    margin:30px 0 20px 0;
+    color:#333;
+    float:left;
+    font-size:24px;
+    font-weight:normal;
+    text-indent:1em;
+}
+#zhong-left h1 span{
+    font-size:14px;
+    color:#999;
+    margin-left:10px;
+}
+#zhong-left dl{
+    width:450px;
+    height:105px;
+    background:#FFF;
+    margin-bottom:15px;
+    border:#eeeeee 1px solid;
+    position:relative;
+    margin-left:8px;
+}
+#zhong-left dl dt{
+    font-size:16px;
+    font-weight:bold;
+    text-indent:1em;
+    margin-top:10px;
+}
+#zhong-left dl dd{
+    color:#F00;
+    font-weight:bold;
+    margin-top:30px;
+    text-indent:1em;
+    display:inline-block;
+    float:left;
+}
+#zhong-left dl p{
+    font-size:13px;
+    color:#999;
+    text-indent:1em;
+}
+#zhong-left dl img{
+    display:inline-block;
+    float:left;
+}
+#zhong-left dl a{
+    display:inline-block;
+    width:100px;
+    height:30px;
+    float:right;
+    position:absolute;
+    right:10px;
+    bottom:10px;
+    background:#06F;
+    text-align:center;
+    line-height:30px;
+    border-radius:15px;
+    color:#FFF;
+    font-size:13px;
+}
+#zhong-right{
+    width:300px;
+    height:230px;
+    background:#FFF;
+    float:right;
+    margin-right:40px;
+    overflow:hidden;
+    box-sizing:border-box;
+    border-bottom:#d9d9d9 1px solid;
+}
+#zhong-right h1{
+    background:#0089dc;
+    width:300px;
+    height:50px;
+    font-size:18px;
+    text-indent:1em;
+    color:#FFF;
+    font-weight:normal;
+    line-height:50px;
+}
+#zhong-right dl dt{
+    font-size:14px;
+    font-weight:bold;
+    margin-top:10px;
+    text-indent:1em;
+}
+#zhong-right dl dd{
+    font-size:14px;
+    text-indent:1em;
+}
+#zhong-right dl p{
+    width:250px;
+    height:60px;
+    margin-top:10px;
+    font-size:15px;
+    padding:6px 10px 0px 40px;
+    border-top:1px solid #CCC;
+    background:url(../images/shangbiao.png) no-repeat 4% 0%;
+}
+#zhong-right dl a{
+    display:block;
+    width:300px;
+    height:50px;
+    line-height:50px;
+    font-size:18px;
+    text-align:center;
+    color:#666;
+    border-top:#eeeeee 1px solid;
+}
+
+
+
+
+#footer {
+    width:100%;
+    height:360px;
+    margin:0px auto;
+    box-sizing:border-box;
+}
+#footer .footer-top {
+    width:1366px;
+    height:310px;
+    margin:0px auto;
+    box-sizing:border-box;
+    float:left;
+}
+.footer-bottom ul {
+    text-align:center;
+}
+#footer li {
+    display:inline-block;
+    color:#666666;
+}
+#footer li a {
+    font-size:12px;
+    color:#666666;
+}
+#footer li a:hover {
+    color:#F03;
+    text-decoration:underline;
+}
+
+
+
+
